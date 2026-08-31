@@ -6,13 +6,21 @@
         <title>boxman llc.</title>
 
         <style>
-            body {
+            html, body {
                 color: hsl(0, 0%, 86%);
                 background-color: hsl(0, 0%, 16%);
                 min-height: 100vh;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+                overflow: hidden;
+            }
+
+            html::-webkit-scrollbar,
+            body::-webkit-scrollbar {
+                display: none;
             }
         </style>
     </head>
